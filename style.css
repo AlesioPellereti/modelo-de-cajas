@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(0, 253, 147, 0.848);
+}
+
+h1 {
+    background-color: rgba(128, 0, 128, 0.628);
+    text-align: center;
+}
+
+.cuadrado {
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    border: black solid 10px;
+    transition: 1s all;
+    
+
+
+}
+.cuadrado:hover{
+    background-color: fuchsia;
+    transform: rotate(180deg);
+}
+
+.rectangulo {
+    width: 100px;
+    height: 500px;
+    background-color: brown;
+    border-radius: 40px;
+    transition: 1s all;    
+}
+.rectangulo:hover{
+    background-color: darkorchid;
+    transform: rotate(180deg);
+
+}
+
+.circulo {
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    border-radius: 1000px;
+}
+
+.triangulo {
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid blue;
+    border-left: 50px solid transparent;
+    
+}
+
+.alreves {
+    width: 0;
+    height: 0;
+    border-top: 100px solid blue;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+
+.separar{
+    margin-top: 20px;
+}
+img {
+    animation: fantasma 3s infinite;}
+@keyframes fantasma{
+0%,100% {opacity: 0;}
+
+25%{transform: translateY(-20px);opacity: 1;}
+
+
+}
